@@ -1,13 +1,15 @@
 # Brewfile
 
-## install
+## 書き出し方法
 
 ```
+cd ~/Brewfile
 brew bundle
 ```
 
-## dump
+## インストール方法
 
 ```
-brew bundle dump --force
+cd ~/Brewfile
+brew bundle dump
 ```
