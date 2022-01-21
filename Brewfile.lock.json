@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/bundle": {
-        "revision": "407dafc7dbdacd1d897cfc79e8c3ab86a859ca71"
+        "revision": "d40b20f64e29453a77290f7c329cf336a59e8b66"
       },
       "homebrew/cask": {
-        "revision": "cab177f96feb4208e5b966c76144fc8e7ef6dcd1"
+        "revision": "8b2f3a75ebabcf63c3bc301140efcbb3883e8e7d"
       },
       "homebrew/core": {
-        "revision": "f25e324af340ccb83931423f047fd825de68d690"
+        "revision": "c14258a186c6ddad011788cc7f15c80f41e5a43b"
       }
     },
     "brew": {
@@ -50,6 +50,45 @@
             }
           }
         }
+      },
+      "fnm": {
+        "version": "1.29.2",
+        "bottle": {
+          "rebuild": 0,
+          "root_url": "https://ghcr.io/v2/homebrew/core",
+          "files": {
+            "arm64_monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/fnm/blobs/sha256:29570693bdf0f2b7dc3e126660216b13d540b2d8a263f34ef2598d536746a844",
+              "sha256": "29570693bdf0f2b7dc3e126660216b13d540b2d8a263f34ef2598d536746a844"
+            },
+            "arm64_big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/fnm/blobs/sha256:ce103b0afaf0c2f3a0bd99d0047b5a70dc01a2f94fea11026f951d077b8e7c2e",
+              "sha256": "ce103b0afaf0c2f3a0bd99d0047b5a70dc01a2f94fea11026f951d077b8e7c2e"
+            },
+            "monterey": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/fnm/blobs/sha256:df1c73e0461744d0fac8d7cad29a75e681440f58939e3ed4f1cd20895f12cca8",
+              "sha256": "df1c73e0461744d0fac8d7cad29a75e681440f58939e3ed4f1cd20895f12cca8"
+            },
+            "big_sur": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/fnm/blobs/sha256:8691b496054008a60e8c2cd9b096fe39a91ebbd70aa8e7b6baa67ce34483e2ab",
+              "sha256": "8691b496054008a60e8c2cd9b096fe39a91ebbd70aa8e7b6baa67ce34483e2ab"
+            },
+            "catalina": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/fnm/blobs/sha256:7fc6c132604886baf82e6f20587ad1c6db34e11acfbd6a4bb13418e8518b01d4",
+              "sha256": "7fc6c132604886baf82e6f20587ad1c6db34e11acfbd6a4bb13418e8518b01d4"
+            },
+            "x86_64_linux": {
+              "cellar": ":any_skip_relocation",
+              "url": "https://ghcr.io/v2/homebrew/core/fnm/blobs/sha256:621c18f5695b7f992429cb1c998aa6991c35bcada5151784ce740ba568860652",
+              "sha256": "621c18f5695b7f992429cb1c998aa6991c35bcada5151784ce740ba568860652"
+            }
+          }
+        }
       }
     },
     "cask": {
@@ -60,13 +99,13 @@
         }
       },
       "docker": {
-        "version": "4.3.2,72729",
+        "version": "4.4.2,73305",
         "options": {
           "full_name": "docker"
         }
       },
       "google-chrome": {
-        "version": "97.0.4692.71",
+        "version": "97.0.4692.99",
         "options": {
           "full_name": "google-chrome"
         }
@@ -75,6 +114,24 @@
         "version": "1.63.2",
         "options": {
           "full_name": "visual-studio-code"
+        }
+      },
+      "figma": {
+        "version": "108.1.0",
+        "options": {
+          "full_name": "figma"
+        }
+      },
+      "notion": {
+        "version": "2.0.19",
+        "options": {
+          "full_name": "notion"
+        }
+      },
+      "sourcetree": {
+        "version": "4.1.5,241",
+        "options": {
+          "full_name": "sourcetree"
         }
       }
     }
@@ -88,6 +145,14 @@
         "CLT": "13.2.0.0.1.1638488800",
         "Xcode": "13.1",
         "macOS": "11.5.2"
+      },
+      "monterey": {
+        "HOMEBREW_VERSION": "3.3.11",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "c14258a186c6ddad011788cc7f15c80f41e5a43b",
+        "CLT": "",
+        "Xcode": "13.2.1",
+        "macOS": "12.1"
       }
     }
   }
