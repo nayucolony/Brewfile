@@ -4,12 +4,12 @@
 
 ```
 cd ~/Brewfile
-brew bundle
+brew bundle dump --force
 ```
 
 ## インストール方法
 
 ```
 cd ~/Brewfile
-brew bundle dump
+brew bundle
 ```
